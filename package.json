@@ -1,0 +1,51 @@
+{
+	"name": "fullstack-express",
+	"version": "1.0.0",
+	"description": "Fullstack Vietnam lò đào tạo lập trình viên, designer chuyên nghiệp tại Sài Gòn. Chúng tôi là các chuyên gia uy tín trong lĩnh vực lập trình ứng dụng, thiết kế và sáng tạo. Gọi: 0 96 96 89 89 3",
+	"main": "app.js",
+	"private": true,
+	"scripts": {
+		"start": "nodemon ./bin/www --exec babel-node"
+	},
+	"dependencies": {
+		"bcrypt": "^3.0.0",
+		"cookie-parser": "~1.4.3",
+		"crypto": "^1.0.1",
+		"debug": "~2.6.9",
+		"express": "~4.16.0",
+		"http-errors": "~1.6.2",
+		"mongoose": "^5.2.15",
+		"morgan": "~1.9.0",
+		"nodemon": "^1.18.3",
+		"pug": "2.0.0-beta11"
+	},
+	"author": "FullStack VietNam",
+	"license": "ISC",
+	"homepage": "https://fullstackvietnam.com",
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-eslint": "^9.0.0",
+		"babel-plugin-inline-import": "^3.0.0",
+		"babel-plugin-transform-async-to-module-method": "^6.24.1",
+		"babel-plugin-transform-runtime": "^6.23.0",
+		"babel-polyfill": "^6.26.0",
+		"babel-preset-env": "^1.7.0"
+	},
+	"eslintConfig": {
+		"parser": "babel-eslint",
+		"extends": [
+			"airbnb/base",
+			"plugin:import/errors"
+		],
+		"rules": {
+			"no-use-before-define": 0,
+			"arrow-body-style": 0,
+			"dot-notation": 0,
+			"no-console": 0
+		},
+		"env": {
+			"mocha": true
+		}
+	}
+}
